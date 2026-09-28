@@ -14,4 +14,4 @@ COPY ui ./ui
 COPY README.md ./README.mp
 
 EXPOSE 8000 8501
-CMD["unicorn", "app.main.app", "-host", "0.0.0.0", "--port","8000"]
+CMD ["unicorn", "app.main.app", "-host", "0.0.0.0", "--port","8000"]

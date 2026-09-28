@@ -8,7 +8,7 @@ ENV DONTWRITEBYTECODE=1
 
 COPY requirements.txt .
 RUN python -m pip install --no-cache-dir -r requirement.txt 
--
+
 COPY app ./app
 COPY ui ./ui
 COPY README.md ./README.mp
